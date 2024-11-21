@@ -10,7 +10,7 @@ namespace DemoConcurrencia
 
         private void BtnSecuencial_Click_1(object sender, EventArgs e)
         {
-            ActualizarResultado("Iniciando preceso secuencial");
+            ActualizarResultado("Iniciando el preceso secuencial");
             for (int i = 0; i < 5; i++)
             {
                 Thread.Sleep(2000);
